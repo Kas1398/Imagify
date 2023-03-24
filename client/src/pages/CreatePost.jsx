@@ -87,7 +87,7 @@ const CreatePost = () => {
             <form className="mt-16 max-w-3xl" onSubmit={handleSubmit}>
                 <div className="flex flex-col gap-5">
                     <FormField
-                        labelName="Your Name"
+                        labelName="Your name"
                         type="text"
                         name="name"
                         placeholder="Ex., john doe"
